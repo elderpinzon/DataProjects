@@ -145,7 +145,7 @@ Date,Transit Agency,Type ,Service Class,Discount,Amount,Balance
 2/14/2018 5:12:42 PM,Toronto Transit Commission,Fare Payment,Regular,$0.00 ,$3.00 ,$11.34 
 2/14/2018 12:07:18 PM,Toronto Transit Commission,Fare Payment,Regular,$0.00 ,$3.00 ,$14.34 
 2/13/2018 7:51:45 AM,Toronto Transit Commission,Fare Payment,Regular,$0.00 ,$1.50 ,$17.34 
-2/13/2018 7:46:38 AM,Union Pearson Express,Fare Payment,,$0.00 ,($4.23),$18.84 
+2/13/2018 7:46:38 AM,Union Pearson Express,Fare Payment,,$0.00 ,$-4.23,$18.84 
 2/13/2018 7:24:01 AM,Union Pearson Express,Fare Payment,,$0.00 ,$9.25 ,$14.61 
 2/3/2018 11:31:46 PM,Toronto Transit Commission,Fare Payment,Regular,$0.00 ,$3.00 ,$23.86 
 2/3/2018 7:58:27 PM,Toronto Transit Commission,Fare Payment,Regular,$0.00 ,$3.00 ,$26.86 
