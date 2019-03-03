@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    
+  </head>
+
+  <body>
+
+    <img src="static/spam.svg" alt="SMS Spam icon" width="50">
+    
+    <header>
+      <div class="container">
+	<h1>SMS Spam Classifier</h1>
+	<div id="brandname"> Using a Naive Bayes Classifier and deployed with Flask
+	</div>
+      </div>
+    </header>
+
+    <div class>
+
+      <form action="{{url_for('predict')}}" method="POST">
+	<p> Enter your message here</p>
+	<textarea name="message" rows="4" cols="50"></textarea>
+	<br/>
+
+	<input type="submit" class="btn-info" value="Predict">
+
+      </form>
+	  
+    </div>
+
+  </body>
+
+  
+</html>

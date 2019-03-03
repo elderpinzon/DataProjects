@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+
+  <body>
+
+    <img src="static/spam.svg" alt="SMS Spam icon" width="50">
+    
+    <header>
+      <div class="container">
+	<h1>SMS Spam Classifier</h1>
+	<div id="brandname"> Using a Naive Bayes Classifier and deployed with Flask
+	</div>
+      </div>
+    </header>
+
+    <div class>
+
+      <p> Your message:</p>
+      <p>{{message}}</p>
+      <p> was classified as: </p>
+
+    </div>
+    
+    {% if prediction == 1%}
+    <h2 style="color:red;">Spam<h/2>
+    {% elif prediction == 0%}
+    <h2 style="color:black;">Ham<h/2>
+    {% endif %}
+
+  </body>
+</html>
+
+
+
+	
+
+    
+      
+
+    
