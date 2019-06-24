@@ -7,7 +7,7 @@ The program was designed to be run in Google Collab, but I wanted to get Tensorf
 ## [Introduction to Tensorflow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow)
 
 - [Week 1: Housing Prices using simple NN](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week1-Excercise-1-House-Prices.ipynb)
-- [Week 2: DNN for MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week1-Excercise-1-House-Prices.ipynb)
-- [Week 2: DNN for Fashion-MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week1-Excercise-1-House-Prices.ipynb)
-- [Week 3: Intro to CNN](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week1-Excercise-1-House-Prices.ipynb)
-- [Week 4: CNN for MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week1-Excercise-1-House-Prices.ipynb)
+- [Week 2: DNN for MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week2-Excercise-Digits-MNIST.ipynb)
+- [Week 2: DNN for Fashion-MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week2-Fashion-MNIST.ipynb)
+- [Week 3: Intro to CNN](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week3-Intro-to-CNN.ipynb)
+- [Week 3: CNN for MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week3-Excercise-CNN-MNIST.ipynb)
