@@ -11,3 +11,5 @@ The program was designed to be run in Google Collab, but I wanted to get Tensorf
 - [Week 2: DNN for Fashion-MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week2-Fashion-MNIST.ipynb)
 - [Week 3: Intro to CNN](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week3-Intro-to-CNN.ipynb)
 - [Week 3: CNN for MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week3-Excercise-CNN-MNIST.ipynb)
+- [Week 4: CNN to Classify Human or Horses Images](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week4-Horse-Or-Human.ipynb)
+- [Week 4: CNN to Classify Happy or Sad Emojis](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week4-Happy-Or-Sad.ipynb)
