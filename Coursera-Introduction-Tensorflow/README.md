@@ -13,3 +13,7 @@ The program was designed to be run in Google Collab, but I wanted to get Tensorf
 - [Week 3: CNN for MNIST](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week3-Excercise-CNN-MNIST.ipynb)
 - [Week 4: CNN to Classify Human or Horses Images](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week4-Horse-Or-Human.ipynb)
 - [Week 4: CNN to Classify Happy or Sad Emojis](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week4-Happy-Or-Sad.ipynb)
+
+## [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
+
+- [Weeks 1 and 2: CNN using augmentation. Cats vs. Dogs Kaggle Challenge]((https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Weeks1-and-2-Kaggle-Cats-And-Dogs-CNN.ipynb)
