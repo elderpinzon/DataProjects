@@ -17,3 +17,4 @@ The program was designed to be run in Google Collab, but I wanted to get Tensorf
 ## [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
 
 - [Weeks 1 and 2: CNN using augmentation. Cats vs. Dogs Kaggle Challenge](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Weeks1-and-2-Kaggle-Cats-And-Dogs-CNN.ipynb)
+- [Week 3: Transfer Learning.  Cats vs. Dogs](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week3-Transfer-Learning.ipynb)
