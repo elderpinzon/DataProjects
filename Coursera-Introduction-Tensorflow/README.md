@@ -19,4 +19,4 @@ The program was designed to be run in Google Collab, but I wanted to get Tensorf
 - [Weeks 1 and 2: CNN using augmentation. Cats vs. Dogs Kaggle Challenge](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Weeks1-and-2-Kaggle-Cats-And-Dogs-CNN.ipynb)
 - [Week 3: Transfer Learning.  Cats vs. Dogs](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week3-Transfer-Learning.ipynb)
 - [Week 4: Multi-Class Classification. Rock, paper, scissors](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week4-MultiClass-Rock-Paper-Scissors.ipynb)
-- [Week 4: Kaggle Sign-Language CNN Classifier](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week4-Exercise-Sign-Language.ipynb.ipynb)
+- [Week 4: Kaggle Sign-Language CNN Classifier](https://nbviewer.jupyter.org/github/elderpinzon/DataProjects/blob/master/Coursera-Introduction-Tensorflow/Week4-Exercise-Sign-Language.ipynb)
