@@ -29,7 +29,8 @@ app.layout = html.Div(style={'backgroundColor':colors['background']},children=[
 
     html.H1(children='Simple Stock Analyzer',
             style={'textAlign': 'center',
-                   'color': colors['text']
+                   'color': colors['text'],
+                   'fontFamily': 'HelveticaNeue'
             }
     ),
     
@@ -59,7 +60,9 @@ app.layout = html.Div(style={'backgroundColor':colors['background']},children=[
     dcc.Input(
         placeholder='Enter stock ticker...',
         type='text',
-        value=''
+        value='',
+        style = {'fontFamily': 'HelveticaNeue'}
+
     ),
     
     # dcc.Graph(
