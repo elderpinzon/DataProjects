@@ -87,14 +87,18 @@ def update_output_div(this_stock):
     min_price_12, min_date_12 = StockUtils.GetMinimumPriceAndDate(df_twelve_months)
 
     df_before_min, df_after_min = StockUtils.GetBeforeAfterMin(df)
-    
-    trend_overall, fit_overall = StockUtils.FitTrendLine(df)
-    trend_before_min, fit_before_min =  StockUtils.FitTrendLine(df_before_min)
-    trend_after_min, fit_after_min =  StockUtils.FitTrendLine(df_after_min)
-    
-    relative_trend_before_min = fit_before_min[0] / fit_overall[0]
-    relative_trend_after_min = fit_after_min[0] / fit_overall[0]
 
+    trend_overall, fit_overall = StockUtils.FitTrendLine(df)
+    relative_trend_before_min = -999
+    relative_trend_after_min = -999
+
+    if len(df_before_min) !=0:
+        trend_before_min, fit_before_min =  StockUtils.FitTrendLine(df_before_min)
+        relative_trend_before_min = fit_before_min[0] / fit_overall[0]
+
+    if len(df_after_min) != 0:
+        trend_after_min, fit_after_min =  StockUtils.FitTrendLine(df_after_min)
+        relative_trend_after_min = fit_after_min[0] / fit_overall[0]
     
     return html.Div([
         html.P("Overall minimum: $%.2f on %s" % (min_price, min_date.strftime("%Y-%m-%d"))),
@@ -114,11 +118,21 @@ def update_graph(this_stock):
     df_before_min, df_after_min = StockUtils.GetBeforeAfterMin(df)
     
     trend_overall, fit_overall = StockUtils.FitTrendLine(df)
-    trend_before_min, fit_before_min =  StockUtils.FitTrendLine(df_before_min)
-    trend_after_min, fit_after_min =  StockUtils.FitTrendLine(df_after_min)
+    relative_trend_before_min = -999
+    relative_trend_after_min = -999
+    before_date = -999
+    after_date = -999
+    trend_before_min = []
+    trend_after_min = []
     
-    relative_trend_before_min = fit_before_min[0] / fit_overall[0]
-    relative_trend_after_min = fit_after_min[0] / fit_overall[0]
+    if len(df_before_min) !=0:
+        trend_before_min, fit_before_min =  StockUtils.FitTrendLine(df_before_min)
+        relative_trend_before_min = fit_before_min[0] / fit_overall[0]
+        before_date = df_before_min.Date
+    if len(df_after_min) != 0:
+        trend_after_min, fit_after_min =  StockUtils.FitTrendLine(df_after_min)
+        relative_trend_after_min = fit_after_min[0] / fit_overall[0]
+        after_date = df_after_min.Date
     
     return {
         'data':[
@@ -126,9 +140,9 @@ def update_graph(this_stock):
              'line': {'width':3,'shape':'spline'}, 'name':'Stock Price'},
             {'x':df.Date, 'y':trend_overall,
              'line':{'width':1}, 'name':'Overall trend'},
-            {'x':df_before_min.Date, 'y':trend_before_min,
+            {'x':before_date, 'y':trend_before_min,
              'line':{'width':1}, 'name':'Before min trend: %.3f' % relative_trend_before_min},
-            {'x':df_after_min.Date, 'y':trend_after_min,
+            {'x':after_date, 'y':trend_after_min,
              'line':{'width':1}, 'name':'After min trend: %.3f' % relative_trend_after_min}
         ],
         'layout': {'title':this_stock,
